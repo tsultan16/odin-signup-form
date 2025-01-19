@@ -7,8 +7,44 @@
 #background {
     height: 100vh;
     width: auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
     background-image: url("./images/ganapathy-kumar-unsplash.jpg");
-    background-size: cover; 
+    background-size: cover; /* scales and crops image to fit the container */
+
+    display: flex;
+}
+
+.container-left {
+    width: 45vh;
+    border: 2px solid red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-right {
+    background-color: rgba(245, 245, 245, 0.564);
+    width: 55vh;
+    border: 2px solid green;
+}
+
+.banner {
+    font-size: 2.5em;
+    color: white;
+    border: 1px solid yellow;
+    padding: 0.2em 0;
+    background-color: rgba(10, 11, 29, 0.559);
+
+    flex-grow: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 12vh;
+    width: auto;
 }
