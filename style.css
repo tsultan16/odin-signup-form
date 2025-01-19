@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #background {
     height: 100vh;
     width: auto;
@@ -21,15 +25,15 @@
 }
 
 .container-left {
-    width: 40vw;
+    width: 150vh;
     border: 2px solid red;
     flex-grow: 0;
 }
 
 .container-right {
-    background-color: rgba(245, 245, 245, 0.799);
+    background-color: rgba(231, 231, 231, 0.92);
     border: 2px solid green;
-    flex-grow: 1;
+    flex-grow: 0;
 }
 
 .banner {
@@ -54,22 +58,16 @@ img {
 }
 
 .top, .bottom {
-    height: 35vh;
+    height: 30vh;
     border: 1px solid yellow;
 }
 
-.middle {
-    height: 30vh;
-    border: 1px solid brown;
-}
-
 .top {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     font-weight: 700;
 
     padding-left: 2em;
-    padding-right: 10em;
+    padding-right: 16em;
     padding-bottom: 2em;
 
     display: flex;
@@ -78,10 +76,71 @@ img {
     gap: 1em;
 }
 
+form {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;  
+    
+    border: 1px solid brown;
+    background-color: rgba(255, 255, 255, 0.868);
+}
 
 
+.form-row {
+    display: flex;
+    gap: 3em;
 
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
 
+.input-field {
+    display: flex;
+    flex-direction: column;
+}
 
+input {
+    height: 1.4em;
+    width: 14em;
+    border-radius: 0.2em;
+    border: 1px solid rgb(189, 188, 188);
+    padding: 0.2em;
+}
+
+input:focus {
+    outline-color: #301af5ae;
+    height: 1.8em;  
+}
+
+label {
+    font-size: 0.7em;
+    color: rgb(86, 86, 86)
+}
+
+.bottom {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;     
+}
+
+button {
+    margin-bottom: 1em;
+    padding: 0.5em 2.5em;
+    background-color: rgba(55, 24, 229, 0.863);
+    color: white;
+    border: 0px solid;
+    border-radius: 0.3em;
+}
+
+button:hover {
+    background-color: rgba(55, 24, 229, 0.578);
+    cursor: pointer;
+    border: 1px solid whitesmoke;
+
+}
+
+.bottom p {
+    font-size: 0.7em;
+}
 
 
