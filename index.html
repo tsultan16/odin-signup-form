@@ -19,7 +19,7 @@
         <div class="container-right"> 
             <div class="top">
                 <p>
-                    This is not a real online service! You know you need something like This
+                    This is not a real online service! You know you need something like this
                     in your life to help you realize your deepest dreams. Sign up <em>now</em> to get
                     started.
                 </p>
@@ -34,12 +34,12 @@
                     <div class="form-row">
                         <div class="input-field">
                             <label for="first-name">FIRST NAME</label>
-                            <input type="text" id="first-name" name="user_first_name">
+                            <input type="text" id="first-name" name="user_first_name" required>
                         </div>
                         
                         <div class="input-field">
                             <label for="last-name">LAST NAME</label>
-                            <input type="text" id="last-name" name="user_last_name">
+                            <input type="text" id="last-name" name="user_last_name" required>
                         </div>
     
                     </div>
@@ -47,12 +47,12 @@
                     <div class="form-row">
                         <div class="input-field">
                             <label for="email">EMAIL</label>
-                            <input type="email" id="email" name="user_email">
+                            <input type="email" id="email" name="user_email" required>
                         </div>
     
                         <div class="input-field">
                             <label for="phone">PHONE NUMBER</label>
-                            <input type="tel" id="phone" name="user_phone">
+                            <input type="tel" id="phone" name="user_phone" required> 
                         </div>
     
                     </div>
@@ -60,12 +60,12 @@
                     <div class="form-row">
                         <div class="input-field">
                             <label for="pwd">PASSWORD</label>
-                            <input type="password" id="pwd" name="user_password">
+                            <input type="password" id="pwd" name="user_password" minlength="8" required>
                         </div>
                         
                         <div class="input-field">
                             <label for="confirm-pwd">CONFIRM PASSWORD</label>
-                            <input type="password" id="confirm-pwd" name="user_confirm_password">
+                            <input type="password" id="confirm-pwd" name="user_confirm_password"  minlength="8" required>
                         </div>
     
                     </div>

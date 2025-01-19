@@ -117,6 +117,15 @@ input:focus {
 
 }
 
+input#pwd:invalid, input#confirm-pwd:invalid {
+    border-color: red;
+} 
+
+input#pwd:valid, input#confirm-pwd:valid {
+    border-color: 1px solid rgb(189, 188, 188);
+}
+
+
 label {
     font-size: 0.7em;
     color: rgb(86, 86, 86)
