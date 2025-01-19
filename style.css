@@ -26,13 +26,13 @@ body {
 
 .container-left {
     width: 150vh;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     flex-grow: 0;
 }
 
 .container-right {
     background-color: rgba(231, 231, 231, 0.92);
-    border: 2px solid green;
+    /* border: 2px solid green; */
     flex-grow: 0;
 }
 
@@ -40,7 +40,7 @@ body {
     font-family: odin;
     font-size: 2.8em;
     color: white;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     padding: 0.2em 0;
     background-color: rgba(10, 11, 29, 0.511);
 
@@ -59,7 +59,7 @@ img {
 
 .top, .bottom {
     height: 30vh;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
 }
 
 .top {
@@ -81,8 +81,9 @@ form {
     padding-bottom: 1em;
     padding-left: 2em;  
     
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
     background-color: rgba(255, 255, 255, 0.868);
+    box-shadow: 6px 6px 5px 1px rgba(0, 0, 255, .2);
 }
 
 
@@ -100,7 +101,8 @@ form {
 }
 
 input {
-    height: 1.4em;
+    font-size: 0.7em;
+    height: 1.8em;
     width: 14em;
     border-radius: 0.2em;
     border: 1px solid rgb(189, 188, 188);
@@ -109,7 +111,10 @@ input {
 
 input:focus {
     outline-color: #301af5ae;
-    height: 1.8em;  
+    outline-style: solid;
+    outline-width: 2px;
+    box-shadow: 3px 3px 5px 1px rgba(98, 98, 145, 0.776);
+
 }
 
 label {
@@ -118,7 +123,7 @@ label {
 }
 
 .bottom {
-    padding-top: 1em;
+    padding-top: 2em;
     padding-bottom: 1em;
     padding-left: 2em;     
 }
@@ -136,11 +141,16 @@ button:hover {
     background-color: rgba(55, 24, 229, 0.578);
     cursor: pointer;
     border: 1px solid whitesmoke;
-
+    box-shadow: 3px 3px 5px 1px rgba(98, 98, 145, 0.776);
 }
 
 .bottom p {
     font-size: 0.7em;
 }
 
+a {
+    color: rgba(55, 24, 229, 0.863);
+    text-decoration: none;
+    font-weight: bold;
+}
 
