@@ -1,3 +1,8 @@
+@font-face {
+    font-family: odin;
+    src: url(./fonts/Norse-Bold.otf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -18,26 +23,24 @@
 .container-left {
     width: 45vh;
     border: 2px solid red;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .container-right {
-    background-color: rgba(245, 245, 245, 0.564);
+    background-color: rgba(245, 245, 245, 0.799);
     width: 55vh;
     border: 2px solid green;
 }
 
 .banner {
-    font-size: 2.5em;
+    font-family: odin;
+    font-size: 2.8em;
     color: white;
     border: 1px solid yellow;
     padding: 0.2em 0;
-    background-color: rgba(10, 11, 29, 0.559);
+    background-color: rgba(10, 11, 29, 0.511);
 
-    flex-grow: 1;
+    position: relative;
+    top: 20vh;
 
     display: flex;
     justify-content: center;
