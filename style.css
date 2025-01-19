@@ -31,14 +31,14 @@ body {
 }
 
 .container-right {
-    background-color: rgba(231, 231, 231, 0.92);
+    background-color: rgba(231, 231, 231, 0.825);
     /* border: 2px solid green; */
     flex-grow: 0;
 }
 
 .banner {
     font-family: odin;
-    font-size: 4em;
+    font-size: 5em;
     color: white;
     /* border: 1px solid yellow; */
     padding: 0.2em 0;
@@ -58,12 +58,12 @@ img {
 }
 
 .top, .bottom {
-    height: 30vh;
+    height: 35vh;
     /* border: 1px solid yellow; */
 }
 
 .top {
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 700;
 
     padding-left: 2em;
@@ -77,6 +77,7 @@ img {
 }
 
 form {
+    height: 30vh;
     padding-top: 1em;
     padding-bottom: 1em;
     padding-left: 2em;  
@@ -84,12 +85,16 @@ form {
     /* border: 1px solid brown; */
     background-color: rgba(255, 255, 255, 0.868);
     box-shadow: 6px 6px 5px 1px rgba(0, 0, 255, .2);
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
 .form-row {
     display: flex;
-    gap: 3em;
+    gap: 4em;
 
     margin-top: 1em;
     margin-bottom: 1em;
@@ -98,10 +103,11 @@ form {
 .input-field {
     display: flex;
     flex-direction: column;
+    gap: 0.1em; 
 }
 
 input {
-    font-size: 0.7em;
+    font-size: 1em;
     height: 1.8em;
     width: 14em;
     border-radius: 0.2em;
@@ -127,7 +133,7 @@ input#pwd:valid, input#confirm-pwd:valid {
 
 
 label {
-    font-size: 0.7em;
+    font-size:0.8em;
     color: rgb(86, 86, 86)
 }
 
@@ -138,6 +144,7 @@ label {
 }
 
 button {
+    font-size: 1em;
     font-weight: 700;
     margin-bottom: 1em;
     padding: 0.5em 2.5em;
@@ -155,7 +162,7 @@ button:hover {
 }
 
 .bottom p {
-    font-size: 0.7em;
+    font-size: 1em;
 }
 
 a {
