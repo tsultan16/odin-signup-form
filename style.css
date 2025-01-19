@@ -52,6 +52,21 @@ body {
     align-items: center;
 }
 
+.photo-credit {
+    font-size: 0.8em;
+    color: white;
+    position: absolute;
+    bottom: 1vh;
+
+    padding-left: 1em;
+}
+
+.photo-credit a {
+    color: white;
+    text-decoration: underline;
+}
+
+
 img {
     height: 14vh;
     width: auto;
@@ -77,7 +92,7 @@ img {
 }
 
 form {
-    height: 30vh;
+    min-height: 30vh;
     padding-top: 1em;
     padding-bottom: 1em;
     padding-left: 2em;  
@@ -91,8 +106,13 @@ form {
     justify-content: center;
 }
 
+.rows {
+    flex-shrink: 0;
+}
 
 .form-row {
+    flex-shrink: 0;
+
     display: flex;
     gap: 4em;
 
