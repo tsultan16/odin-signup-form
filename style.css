@@ -154,6 +154,7 @@ input#pwd:valid, input#confirm-pwd:valid {
 
 label {
     font-size:0.8em;
+    font-weight: 600;
     color: rgb(86, 86, 86)
 }
 
